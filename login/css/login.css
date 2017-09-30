@@ -1,0 +1,117 @@
+body,ul,li,h1,h2,h3,p,select,option{
+	margin: 0;
+	padding: 0;
+}
+input{
+	outline: none;
+}
+body,html{
+height: 100%;
+}
+.contianer{
+	padding: 0 0.52rem;
+	height: 100%;
+	background: url(../../public/img/图层-36.png) no-repeat;
+	background-size: 100% auto;
+	background-position: center bottom;
+}
+.contianer .banner{
+	height: 2.3rem;
+	line-height: 2.3rem;
+	text-align: center;
+}
+.contianer .banner img{
+	width: 0.98rem;
+}
+.contianer .weui-cells_form{
+margin-top: 0;
+}
+.contianer .weui-cell__bd{
+	border: none;
+	position: relative;
+	margin-bottom: 0.4rem;
+}
+.contianer .userName{
+	width: 100%;
+	height: 0.92rem;
+	box-sizing: border-box;
+	background: #e3e3e3;
+	border-radius: 0.1rem;
+	font-size: 0.22rem;
+	color: #000;
+	padding-left: 0.76rem;
+}
+.weui-cells:before,
+.weui-cells:after{
+	content: '';
+	border: none;
+}
+.contianer .pass_icon,
+.contianer .user_icon{
+	position: absolute;
+	width: 0.76rem;
+	height: 0.34rem;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	background: url(../../public/img/Land-zh.png) no-repeat center center;
+	background-size: auto  100% ;
+}
+.contianer .pass_icon{
+	background-image: url(../../public/img/Land-password.png) ;
+}
+.contianer select{
+	height: 0.92rem;
+	font-size: 0.28rem !important;
+	border: none;
+	color: #ababab !important;
+}
+.contianer option{
+	background: #fff;
+	border: none;
+	outline: none;
+	height: 0.62rem;
+}
+.contianer select option:hover{
+	background: #ffc801;
+	color: #fff;
+}
+.contianer .action_option{
+	background: #ffc801;
+	color: #fff;
+}
+.weui-cells_form{
+	border: none;
+}
+.weui-select{
+	/*position: absolute;*/
+	/*top: 0;*/
+	/*opacity: 0;*/
+}
+.contianer .select{
+	line-height: 0.92rem;
+	padding-left: 0.23rem;
+	color: #ababab;
+	font-size: 0.28rem;
+}
+.contianer .a_list{
+	/*margin-top: 1.8rem;*/
+	display: flex;
+	justify-content: space-between;
+}
+.contianer .a_list a{
+	font-size: 0.28rem;
+	color: #666;
+}
+.weui-btn_primary{
+	height: 0.92rem;
+	line-height: 0.92rem;
+	font-size: 0.28rem;
+	background: #ffc801;
+}
+.weui-btn_primary:active{
+	background: rgba(#ffc801,0.5);
+}
+.weui-btn:active{
+	background: rgba(#ffc801,0.5);
+}

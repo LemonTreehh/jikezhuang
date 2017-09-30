@@ -8,6 +8,58 @@
 		<link rel="stylesheet" href="css/login.css" />
 	</head>
 	<body>
-		
+		<div class="contianer">
+			<div class="banner">
+				<img src="../public/img/Land-logo.png"/>
+			</div>
+			<div class="weui-cells weui-cells_form">
+				 <div class="weui-cell__bd">
+			      <input class="weui-input userName" type="text" placeholder="请输入账号">
+			      <i class="user_icon"></i>
+			    </div>
+				 <div class="weui-cell__bd">
+			      <input class="weui-input userName" type="password" placeholder="请输入密码">
+			      <i class="pass_icon"></i>
+			    </div>
+				 <div class="weui-cell__bd">
+					 <select class="weui-select userName" id="type">
+					 	<option style="display: none;" value="会员类型" selected>会员类型</option>
+				      	<option value="普通用户">普通用户</option>
+				      	<option value="设计师">设计师</option>
+				      	<option value="施工队">施工队</option>
+				      </select>
+					 <!--<div class="userName select">会员类型</div>
+				      <select class="weui-select" id="type">
+				      	<option value="普通用户">普通用户</option>
+				      	<option value="设计师">设计师</option>
+				      	<option value="施工队">施工队</option>
+				      </select>-->
+			    </div>
+			    <div class="weui-cell__bd">
+			    	<a href="javascript:;" class="weui-btn weui-btn_primary">登陆</a>
+			    </div>
+			     <div class="weui-cell__bd">
+			     	<div class="a_list">
+			     		<a href="javascript:;">注册</a>
+			     		<a href="javascript:;">忘记密码？</a>
+			     	</div>
+			     </div>
+			</div>
+		</div>
+		<script src="../public/js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../public/js/weui.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../public/js/public.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+//			var type = document.querySelector('#type');
+//			var selects = document.querySelector('.select');
+//			type.onchange=function(){
+//				selects.innerHTMl = this.value;
+//				console.log(selects.innerHTMl);
+//			}
+//			var selectEl = $('#type');
+//			selectEl.on('change',()=>{
+//				console.log(this)
+//			})
+		</script>
 	</body>
 </html>
